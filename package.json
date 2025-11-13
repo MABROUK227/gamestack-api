@@ -1,0 +1,37 @@
+{
+  "name": "gamestack-api",
+  "version": "1.0.0",
+  "description": "A comprehensive RESTful API for managing video game libraries, user collections, and gaming communities. Built with Express.js, PostgreSQL, MongoDB, and JWT authentication following MVC architecture and professional security standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MABROUK227/gamestack-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MABROUK227/gamestack-api/issues"
+  },
+  "homepage": "https://github.com/MABROUK227/gamestack-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.0.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
